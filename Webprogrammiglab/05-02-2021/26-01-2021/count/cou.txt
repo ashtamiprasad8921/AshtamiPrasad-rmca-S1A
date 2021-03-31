@@ -1,0 +1,22 @@
+<html>
+<body>
+<script language="javascript" type="text/javascript">
+function charcount(str, letter) 
+{
+var position
+var letterCount
+letterCount = 0
+ for ( position = 0; position < str.length; position++) 
+ {
+    if (str.charAt(position) == letter) 
+      {
+      letterCount += 1
+      }
+  }
+  return letterCount
+}
+
+document.write(charcount('Hello everyone!!!', 'e'));
+</script>
+</body>
+</html>
