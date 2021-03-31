@@ -1,0 +1,32 @@
+<html>
+<head></head>
+<body>
+<p id="demo"></p>
+<form>
+First subject:<input type="number" id="sub1"><br>
+second subject :<input  type="number" id="sub2"><br>
+Third subject :<input  type="number" id="sub3"><br>
+Fourth subject :<input  type="number" id="sub4"><br>
+Fifth subject:<input  type="number" id="sub5"><br>
+
+<button onclick="total()">Total</button><br>
+</form>
+<script language="javascript" type="text/javascript">
+
+
+function total()
+{
+var s1=document.getElementById('sub1').value;
+var s2=document.getElementById('sub2').value;
+var s3=document.getElementById('sub3').value;
+var s4=document.getElementById('sub4').value;
+var s5=document.getElementById('sub5').value;
+var total =parseInt(s1)+parseInt(s2)+parseInt(s3)+parseInt(s4)+parseInt(s5);
+
+document.write(total+"<br>")
+
+}
+
+</script>
+</body>
+</html>
