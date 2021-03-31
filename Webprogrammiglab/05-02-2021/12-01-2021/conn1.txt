@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body bgcolor="red">
+<p><h1><a href="regform.html">visit a page</a></h1></p>
+<p><h1><a href="t1.html">visit a page</a></h1></p>
+</body>
+</html>

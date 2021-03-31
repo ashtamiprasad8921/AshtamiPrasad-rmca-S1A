@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<frameset cols="100,100,100,*" >
+<frame src="conn1.html" name="first frame "/>
+<frame src="img1.html" name="second frame"/>
+<frame src="t1.html" name="third frame"/>
+<frame src="ereg.html" name="fourth frame"/>
+
+<noframes>
+<body> this is not working</body>
+</frameset>
+</html>
